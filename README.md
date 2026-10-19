@@ -1,16 +1,42 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+e-PlantShopping
 
-Currently, two official plugins are available:
+Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+e-PlantShopping is a plant shopping application built using React. It allows users to explore plants and use a shopping cart to manage their selected items.
 
-## React Compiler
+Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse plants and view product details.
+- Add plants to the shopping cart.
+- Update the quantity of items in the cart.
+- Remove items from the cart.
+- View shopping cart details.
 
-## Expanding the Oxlint configuration
+Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+Project Structure
+
+- "src/AboutUs.jsx" – About the company.
+- "src/App.jsx" – Main application and landing page.
+- "src/App.css" – Application styling.
+- "src/CartSlice.jsx" – Shopping cart state management.
+- "src/CartItem.jsx" – Shopping cart item display.
+- "src/ProductList.jsx" – Product listing page.
+
+Getting Started
+
+1. Install Node.js.
+2. Install dependencies using "npm install".
+3. Start the application using "npm run dev".
+
+Project Name
+
+e-PlantShopping
